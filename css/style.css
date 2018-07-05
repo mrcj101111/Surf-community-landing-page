@@ -1,0 +1,98 @@
+body {
+  font-family: 'Permanent Marker', cursive;;
+}
+
+#video {
+  margin: 100px auto auto auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #2e2e1f;
+  overflow: hidden;
+  z-index: 1;
+  height: 315px;
+  width: 560px;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h6 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+.input-group {
+  margin: auto;
+  width: 350px;
+}
+
+#go {
+  background-color: #343a40;
+  color: white;
+  display: inline-block;
+}
+
+.container {
+  margin: 10px auto 20px auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 100% ;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image {
+  margin-bottom: 10px;
+}
+
+#box-container {
+  margin: auto;
+  display: flex;
+  height: 200px;
+  width: 1000px;
+}
+
+#box {
+  width: 33.333%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+}
+
+.price {
+  margin: auto;
+}
+
+#select {
+  background-color: #343a40;
+  color: white;
+  width: 100px;
+  margin-left: 105px;
+  position: absolute;
+  bottom:   0;
+}
+
+@media (max-width: 1000px) {
+    #box-container {
+      margin: auto;
+      display: block;
+      height: 200px;
+      width: 1100px;
+    }
+}
